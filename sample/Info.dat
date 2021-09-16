@@ -1,0 +1,83 @@
+{
+  "_version": "2.0.0",
+  "_songName": "Funny",
+  "_songSubName": "",
+  "_songAuthorName": "Zedd X Jasmine Thompson",
+  "_levelAuthorName": "Adrius Magu",
+  "_beatsPerMinute": 100,
+  "_shuffle": 0,
+  "_shufflePeriod": 0.5,
+  "_previewStartTime": 58,
+  "_previewDuration": 10,
+  "_songFilename": "song.ogg",
+  "_coverImageFilename": "cover.jpg",
+  "_environmentName": "DefaultEnvironment",
+  "_songTimeOffset": 0,
+  "_customData": {
+    "_contributors": [],
+    "_editors": {
+      "MMA2": {
+        "version": "4.7.2"
+      },
+      "_lastEditedBy": "MMA2"
+    }
+  },
+  "_difficultyBeatmapSets": [
+    {
+      "_beatmapCharacteristicName": "Standard",
+      "_difficultyBeatmaps": [
+        {
+          "_difficulty": "ExpertPlus",
+          "_difficultyRank": 9,
+          "_beatmapFilename": "ExpertPlusStandard.dat",
+          "_noteJumpMovementSpeed": 19,
+          "_noteJumpStartBeatOffset": 0,
+          "_customData": {
+            "_difficultyLabel": "Chroma go brrrr",
+            "_editorOffset": 0,
+            "_editorOldOffset": 0,
+            "_warnings": [],
+            "_information": [],
+            "_suggestions": [],
+            "_requirements": [],
+            "_colorLeft": {
+              "r": 1,
+              "g": 0,
+              "b": 0.1959242820739746
+            },
+            "_colorRight": {
+              "r": 0,
+              "g": 1,
+              "b": 0.5798249244689941
+            },
+            "_envColorLeft": {
+              "r": 1,
+              "g": 0,
+              "b": 0
+            },
+            "_envColorRight": {
+              "r": 0,
+              "g": 0,
+              "b": 1
+            },
+            "_obstacleColor": {
+              "r": 0.19681274890899658,
+              "g": 1,
+              "b": 0
+            },
+            "_envColorLeftBoost": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "_envColorRightBoost": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

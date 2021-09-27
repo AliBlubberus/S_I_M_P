@@ -1,15 +1,15 @@
 const fs = require("fs");
 
 //Custom Imports
-const bm = require("./modules/basic_mapping");
+const mapping = require("./modules/mapping");
 const chart = require("./modules/song_tools");
 
 //Test Area
 
-let myChart = new chart().from("./sample/ExpertPlusStandard.dat");
+let myChart = new chart();
 
-let testNote = new bm.note(0, 0, 0, 0, 0);
+myChart.addNote(new mapping.note(0, 9, 1, mapping.noteDirection["up-right"], 0));
 
-myChart.addNote(testNote);
+myChart.addEvent(new mapping.lightingEvent(1, mapping.lightType["blue-fade"], mapping.lightGroup["track-ring"]));
 
-myChart.save("cum.dat");
+myChart.save("./sample/ExpertPlusStandard.dat");

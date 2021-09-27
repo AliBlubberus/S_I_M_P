@@ -13,16 +13,20 @@ class chart {
         this._events = [];
     }
 
-    addNote(note) {
-        this._notes[this._notes.length] = note.export();
+    addNote(exp) {
+        this._notes[this._notes.length] = exp.export();
     }
 
-    addObstacle(exp) {
+    addWall(exp) {
         this._obstacles[this._obstacles.length] = exp;
+    }
+    
+    addBomb(exp) {
+        this._notes[this._notes.length] = exp.export();
     }
 
     addEvent(exp) {
-        this._events[this._events.length] = exp;
+        this._events[this._events.length] = exp.export();
     }
 
     save(path) {
